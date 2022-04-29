@@ -1,0 +1,4 @@
+The example program is not legal.
+The ; ends an statement, Since it doesn't have an  std::out  at the beggining of the line then
+it won't work correctly.
+To fix it you have to add std::out at the beginning of each line.
