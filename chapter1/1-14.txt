@@ -1,0 +1,2 @@
+A while loop can be used when the conditions are more complex than the ones used in a for loop.
+However, for loops can be better when you need to use and control an "inside the block" variable.
