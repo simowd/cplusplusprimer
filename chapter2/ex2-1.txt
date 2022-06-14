@@ -1,0 +1,8 @@
+The difference between short, int, long and long long.
+short is the smallest size. An int's minimal size is short.
+long smallest size is the one of an int.
+Each of them vary on their word size. short being the smallest and long long being the biggest.
+
+The same happens with float and double.
+float being 6 words and double being 10 words.
+double might be faster to process than float. 

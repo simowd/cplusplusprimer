@@ -1,0 +1,4 @@
+Principal and payment should be double or even long double.
+This is because we're talking about money and it should be really precise with the smallest quatinties.
+
+The rate can be either a double or an int to represent the percentage. (from 1 to 100)
