@@ -1,0 +1,6 @@
+Exercise 2.6: What, if any, are the differences between the following definitions:
+int month = 9, day = 7;
+int month = 09, day = 07;
+
+The first one defines months and days as decimals. The second example defines them as octals. However, since
+month is defined as 09, it will be defined as a decimal.

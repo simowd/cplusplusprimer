@@ -1,0 +1,11 @@
+Exercise 2.9: Explain the following definitions. For those that are illegal, explain
+what’s wrong and how to correct it.
+(a) std::cin >> int input_value;
+(b) int i = { 3.14 };
+(c) double salary = wage = 9999.99;
+(d) int i = 3.14;
+
+a. It's an illegal definition, the declaration of a variable shouldn't be part of the input
+b. It ends in an error. To make it work, one should avoid list initialization.
+c. wage should be defined before assigning it to salary.
+d. 3.14 gets rounded to 3 and gets initialized.
