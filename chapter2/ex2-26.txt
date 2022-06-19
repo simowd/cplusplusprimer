@@ -1,0 +1,10 @@
+Exercise 2.26: Which of the following are legal? For those that are illegal, explain why.
+(a) const int buf;
+(b) int cnt = 0;
+(c) const int sz = cnt;
+(d) ++cnt; ++sz;
+
+a. Illegal, should be initialized.
+b. It's OK.
+c. It's OK.
+d. Error with ++sz because it's a constant.

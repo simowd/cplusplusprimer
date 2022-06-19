@@ -1,0 +1,12 @@
+Exercise 2.28: Explain the following definitions. Identify any that are illegal.
+(a) int i, *const cp;
+(b) int *p1, *const p2;
+(c) const int ic, &r = ic;
+(d) const int *const p3;
+(e) const int *p;
+
+a. i is an int and cp is a permanent pointer.
+b. p1 is an int pointer and p2 is a permanent pointer.
+c. ic is a const int and r is a const reference.
+d. const should be initialized.
+e. It's legal, the pointer is not const.

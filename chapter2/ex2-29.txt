@@ -1,0 +1,15 @@
+Exercise 2.29: Using the variables in the previous exercise, which of the following as-
+signments are legal? Explain why.
+(a) i = ic;
+(b) p1 = p3;
+(c) p1 = &ic;
+(d) p3 = &ic;
+(e) p2 = p1;
+(f) ic = *p3;
+
+a. It's legal, int becomes const int.
+b. It's legal because it's an int.
+c. It's legal because it's an int.
+d. It's legal because it's a reference to a const int.
+e. It doesn't work because p1 is not a const* int.
+f. It's illegal because you can't define a const int.
