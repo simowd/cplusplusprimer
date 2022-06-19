@@ -1,0 +1,8 @@
+Exercise 2.31: Given the declarations in the previous exercise determine whether the
+following assignments are legal. Explain how the top-level or low-level const applies
+in each case.
+r1 = v2; // Legal
+p1 = p2; // Legal
+p1 = p3; // Legal because can be changed to const int.
+p2 = p1; // Illegal, can't change const
+p2 = p3; // Legal because can assign to pointer
