@@ -1,0 +1,8 @@
+Explain each of the following definitions. Indicate whether any are il-
+legal and, if so, why.
+int i = 0;
+(a) double* dp = &i; (b) int *ip = i; (c) int *p = &i;
+
+a. It's illegal because types don't match.
+b. It's not a legal statement because *int doesn't match int.
+c. It OK.

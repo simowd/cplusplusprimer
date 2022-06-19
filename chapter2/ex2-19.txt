@@ -1,0 +1,2 @@
+A pointer creates an object and stores its address on it.
+A reference creates a new name or alias of an already existing object.

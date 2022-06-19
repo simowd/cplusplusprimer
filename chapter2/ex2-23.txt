@@ -1,0 +1,7 @@
+Exercise 2.23: Given a pointer p, can you determine whether p points to a valid object?
+If so, how? If not, why not?
+
+Yes you can.
+
+if (p) // Verifies that the pointer is not zero.
+if (p == nullptr) // Verifies that p is not a nullpointer.
