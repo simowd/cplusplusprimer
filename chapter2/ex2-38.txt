@@ -1,0 +1,14 @@
+Exercise 2.38: Describe the differences in type deduction between decltype and
+auto. Give an example of an expression where auto and decltype will deduce
+the same type and an example where they will deduce differing types.
+
+When one uses an int both types will be the same
+int i = 6;
+auto a = i; // int
+decltype(i) b = a; //int
+
+When one uses a reference types will be different
+
+int i = 6, &j = i;
+auto a = j // int
+decltype(j) b = j // int&
