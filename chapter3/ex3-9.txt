@@ -1,0 +1,5 @@
+Exercise 3.9: What does the following program do? Is it valid? If not, why not?
+string s;
+cout << s[0] << endl;
+
+It is valid. However, it will be undefined since it is an out of range value.

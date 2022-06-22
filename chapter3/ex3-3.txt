@@ -1,0 +1,2 @@
+With the string input operator, you just read until a whitespace is read.
+With getline, you read the whole line.
