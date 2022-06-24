@@ -1,0 +1,7 @@
+Exercise 3.29: List some of the drawbacks of using an array instead of a vector.
+
+A vector can be dynamically grown.
+A vector doesn't point to a pointer.
+A vector can be copy initialized.
+It's easier to add data to vectors.
+Iteration is easier with the range for.

@@ -1,0 +1,8 @@
+Exercise 3.30: Identify the indexing errors in the following code:
+constexpr size_t array_size = 10;
+int ia[array_size];
+for (size_t ix = 1; ix <= array_size; ++ix)
+    ia[ix] = ix;
+
+The error is on the for loop. it goes until the size of the array, which is 10.
+However the index can only reach the index of 9.
