@@ -1,0 +1,4 @@
+Exercise 4.7: What does overflow mean? 
+
+Overflow means that the memory allocated for a variable can fit the contents of said variable.
+

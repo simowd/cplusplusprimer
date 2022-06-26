@@ -1,0 +1,6 @@
+Exercise 4.8: Explain when operands are evaluated in the logical AND , logical OR , and
+equality operators.
+
+AND: The left is evaluated the left one. If true, checks the second
+OR: The left is evaluated. If false, checks the second
+==: Checks both to see the validity

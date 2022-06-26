@@ -1,0 +1,3 @@
+Exercise 4.12: Assuming i, j, and k are all ints, explain what i != j < k means.
+
+It verifies that k is greater than 1 if i and j are diferent.

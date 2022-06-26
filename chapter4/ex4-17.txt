@@ -1,0 +1,4 @@
+Exercise 4.17: Explain the difference between prefix and postfix increment.
+
+Prefix adds one to the value and then returns the value.
+Postfix returns the value and then it adds the value.

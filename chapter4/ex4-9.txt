@@ -1,0 +1,6 @@
+Exercise 4.9: Explain the behavior of the condition in the following if:
+const char *cp = "Hello World";
+if (cp && *cp)
+
+The if checks the content of cp which points to the first character (which exists) then checks the content that points cp. It returns true because they both exist.
+
